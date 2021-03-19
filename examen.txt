@@ -1,0 +1,36 @@
+Site vitrine d'un bar
+
+
+Nom de domaine : http://bar.webstart.local
+Base de données : 
+    Host: localhost
+    Bdd name! webstart_bar
+    Utilsateur: webstart_bar
+    Mot de passe: webstart_bar_pwd
+
+
+Le projet devra être héberger sur github : attention, je pourrais voir tous les commits que vous aurez fait
+Je veux qu'il y ait une vraie séparation entre les contrôleurs et les vues
+La structure du code sera importante 
+
+Fonctionnalités:
+
+# je veux voir une home comportant , un titre , une introduction, du contenu , aux cartes, aux serveurs
+# depuis la home, je veux pouvoir accéder à la carte du bar , il pourra y avoir plusieurs cartes (une pour le midi et une pour le soir), je ne veux voir que les cartes actives
+# lorsque je clique sur une carte, je veux voir toutes les boissons rangés par catégorie et liées à la carte (vin, soft, bière, coktail ...)
+# lorsque je clique sur une boisson, je veux pouvoir voir le détail de celle-ci (prix, alcool, description ), si c'est un coktail, je veux sa composition.
+# depuis la home, je veux pouvoir accéder à liste des serveurs de l'établissement ,je veux voir son nom, prénom, age et une présentation, je veux savoir aussi s'il travaille le midi, le soir ou les deux
+
+++
+# je veux pouvoir accéder à une page qui me permettra d'activer ou désactiver une carte via un bouton
+
+
+Livrables:
+
+- un MCD sur mysql workbench
+- une base de données sous mysql (conforme à votre MCD)
+- sources sur github
+- démonstration de 10 minutes , qui aura pour but de présenter ce que vous avez fait, pourquoi vous l'avez fait de cette façon et montrer que toutes les fonctionnalités demandées sont présentes.
+
+
+

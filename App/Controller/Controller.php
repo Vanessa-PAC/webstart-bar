@@ -8,7 +8,7 @@ abstract class Controller  {
 
     protected function getData(string $sql): array{
 
-        $pdo = new \PDO('mysql:dbname=webstart;host=localhost', 'bertrand','bertrand');
+        $pdo = new \PDO('mysql:dbname=webstart_bar;host=localhost', 'webstart_bar','webstart_bar_pwd');
         $pdo->setAttribute(\PDO::ATTR_EMULATE_PREPARES,false);
         $state = $pdo->prepare($sql);
         

@@ -15,16 +15,7 @@
 
 <body>
     <h1>Webstart Bar</h1>
-    
-    <?php foreach($categories as $categorie){?> 
-
-    <h2><?php echo $categorie['title'] ?> </h2>
-    <p> 
-    <?php echo $categorie['description'] ?> 
-    </p> 
-    <?php
-    } 
-    ?>
+  
 </body>
 
 </html>
