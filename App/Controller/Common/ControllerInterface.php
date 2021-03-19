@@ -3,5 +3,5 @@
 namespace App\Controller\Common ;
 
 Interface ControllerInterface{
-    public function show();
+    public function show(); 
 }
